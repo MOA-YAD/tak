@@ -1,0 +1,22 @@
+{
+  "logo":"https://telegra.ph/file/5c7062d9c18684d028ab1.jpg",
+  "name": "بوت تاك اعضاء المجموعات ♡︎",
+  "description": "بوت تاك اعضاء المجموعات ♡︎",
+  "env": {
+    "TOKEN": {
+      "description": "تــوكــن بــوتـكـ @botfather.",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "الايــبـي ايــدي my.telegram.org ",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "الايــبــي هاش my.telegram.org ",
+      "value": ""
+    }
+  },
+  "buildpacks": [{
+    "url": "https://github.com/heroku/heroku-buildpack-python.git"
+  }]
+}
