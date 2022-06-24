@@ -22,7 +22,7 @@ moment_worker = []
 
 
 #start
-@xavierbot.on(events.NewMessage(pattern="^تاك$"))
+@xavierbot.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply("مـرحبآ بكـ في بوت التاك 😊❤️.!\n استطيع عمل تالك ل 1500 عضو في المجموعات ... وعمل 300 في القنوات .\n علمود اتشوف الاوامر ارسل ` اوامر التاك `",
                     buttons=(
