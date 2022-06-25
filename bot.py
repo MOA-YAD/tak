@@ -136,11 +136,5 @@ xavierbot.run_until_disconnected()
 
 async def help(event):
 
-  helptext = "* مؤيد تاج راسك *"
-
-  await event.reply(helptext,
-
-
-                    link_preview=False
-
+  helptext = " مؤيد تاج راسك "
                    )
