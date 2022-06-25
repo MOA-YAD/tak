@@ -131,10 +131,17 @@ xavierbot.run_until_disconnected()
 
 
 #الكت حرام البوك ولله حرام
+#start
 
 @xavierbot.on(events.NewMessage(pattern="^كت$"))
 
-async def help(event):
+async def start(event):
 
-  helptext = " مؤيد تاج راسك "
+  await event.reply("مـرحبآ بكـ في بوت التاك 😊❤️.!\n علمود اتشوف الاوامر ارسل ` اوامر التاك `",
+                    buttons=(
+                      [
+                        Button.url('مطور البوت', 'https://t.me/MOA_YAD'),   
+                      ]
+                   ), 
+                    link_preview=False
                    )
