@@ -122,18 +122,6 @@ async def cancel_mentionall(event):
 
 
 
-#start
-
-@xavierbot.on(events.NewMessage(pattern="^كت$"))
-
-async def start(event):
-
-  await event.reply("` يالله `",
-
-
-                    link_preview=False
-
-                   )
 
 
 print("تم تنصيب بوت التاك بنجاح 💕🍂")
