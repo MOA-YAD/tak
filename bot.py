@@ -127,3 +127,20 @@ async def cancel_mentionall(event):
 print("تم تنصيب بوت التاك بنجاح 💕🍂")
 print("لو محتاج مساعده @MOA_YAF")
 xavierbot.run_until_disconnected()
+
+
+
+#الكت حرام البوك ولله حرام
+
+@xavierbot.on(events.NewMessage(pattern="^كت$"))
+
+async def help(event):
+
+  helptext = "* مؤيد تاج راسك *"
+
+  await event.reply(helptext,
+
+
+                    link_preview=False
+
+                   )
